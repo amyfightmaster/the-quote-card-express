@@ -1,0 +1,28 @@
+.main {
+    display: flex; 
+    flex-direction: column;
+    position: relative; 
+}
+
+.background-img {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    background: linear-gradient(to bottom, , black);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.quote-container {
+
+}
+
+.quote-text {
+    color: white;
+}
+
+.author-text {
+    color: white;
+
+}
