@@ -64,3 +64,23 @@
     color: white;
     opacity: 0.3;
 }
+
+@media screen and (max-width: 600px) {
+    .quote-container {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .quote-text {
+        font-size: 1.2rem;
+    }
+
+    .author-text {
+        font-size: 0.9rem;
+    }
+
+    .quote-container::before,
+  .quote-container::after {
+    font-size: 3rem;
+  }
+}
