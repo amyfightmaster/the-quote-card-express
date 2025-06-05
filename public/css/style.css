@@ -2,27 +2,43 @@
     display: flex; 
     flex-direction: column;
     position: relative; 
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
 }
 
 .background-img {
     position: absolute;
     top: 0; 
     left: 0;
-    background: linear-gradient(to bottom, , black);
+    background: linear-gradient(to bottom, #d94d9c, #10132e);
     width: 100vw;
     height: 100vh;
     z-index: 1;
 }
 
 .quote-container {
-
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem; 
+    max-width: 600px;
+    color: white;
 }
 
 .quote-text {
-    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
 }
 
 .author-text {
-    color: white;
-
+    font-size: 1rem;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
