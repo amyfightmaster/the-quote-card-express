@@ -42,3 +42,23 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+.quote-container::before {
+    content: "“";
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 4rem;
+    color: white;
+    opacity: 0.3;
+}
+
+.quote-container::after {
+    content: "”";
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 4rem;
+    color: white;
+    opacity: 0.3;
+}
